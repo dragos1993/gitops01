@@ -1,20 +1,33 @@
 {
   "name": "gitops01",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000d\u0000o\u0000c\u0000k\u0000e\u0000r\u00001\u0000\r\u0000 \u0000#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000d\u0000o\u0000c\u0000k\u0000e\u0000r\u00001\u0000\r\u0000 \u0000#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000d\u0000o\u0000c\u0000k\u0000e\u0000r\u00001\u0000\r\u0000 \u0000#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000d\u0000o\u0000c\u0000k\u0000e\u0000r\u00001\u0000\r\u0000 \u0000",
+  "description": "React Docker project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dragos1993/gitops01.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "docker", "gitops"],
+  "author": "dragos1993",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dragos1993/gitops01/issues"
   },
-  "homepage": "https://github.com/dragos1993/gitops01#readme"
+  "homepage": "https://github.com/dragos1993/gitops01#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0"
+  }
 }
