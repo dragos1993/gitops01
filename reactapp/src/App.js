@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-link">Learn Docker with React.js3</h1>
+        <h1 className="App-link">Learn Docker with React.js4</h1>
       </header>
     </div>
   );
